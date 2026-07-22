@@ -28,7 +28,7 @@ header nav .container-nav .links ul{
     align-items: center;
     column-gap: 15px; 
 }
-header nav .container-nav .links .Burger{
+header nav .container-nav .links #items{
     display: none;
 }
 header nav .container-nav .links ul li{
