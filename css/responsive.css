@@ -42,9 +42,9 @@ header nav .container-nav .links ul li{
     height: 2px;
     background-color: white;
  }
- header nav .container-nav .links .Burger:focus+ul{
+header nav .container-nav .links #items:checked ~ ul{
     height: 380px;
- }
+}
 
  header nav .container-nav .logo h2{
     
