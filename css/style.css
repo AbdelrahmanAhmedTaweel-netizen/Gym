@@ -249,6 +249,7 @@ header .container .content button:active{
 #TRAINERS .container .card .item img{
     border: 5px solid #e55556 ;
     border-radius: 50%;
+    width: 100px;
 }
 #TRAINERS .container .card .item h4{
     font-size: 25px;
