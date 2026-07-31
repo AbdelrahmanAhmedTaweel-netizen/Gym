@@ -9,7 +9,10 @@ header{
     height: 100vh;
    
 }
-
+header nav{
+    position: absolute;
+    width: 100%;
+}
 header nav .container-nav{
     width: 90%;
     margin: auto;
@@ -62,7 +65,10 @@ header nav .container-nav .links ul li.active a::after{
 header .container{
     width: 85%;
     margin: auto;
-   transform: translatey(70%);
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   height: 100%;
 }
 header .container .content{
     color: white;
