@@ -18,6 +18,7 @@ header nav .container-nav .links ul{
     z-index: 1000;
    overflow: hidden;
    transition-duration: .3s;
+    padding: 0px;
 }
 
 header nav .container-nav .links ul li{
@@ -43,7 +44,8 @@ header nav .container-nav .links ul li{
     background-color: white;
  }
 header nav .container-nav .links #items:checked ~ ul{
-    height: 380px;
+    height: 430px;
+    padding:15px 0px;
 }
 
  header nav .container-nav .logo h2{
